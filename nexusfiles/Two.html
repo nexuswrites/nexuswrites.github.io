@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Nexus Writes</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    <nav id="sideMenu" class="hidden">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Poem Categories</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    <header>
+        <div class="overlay">
+            <h1>NEXUS WRITES</h1>
+            <p>Where words bleed gently onto timeworn parchment.</p>
+        </div>
+    </header>
+    <main>
+        <section class="search-section">
+            <input type="text" placeholder="Search poems, titles, words..." />
+            <button>Search</button>
+        </section>
+        <section class="intro">
+            <h2>Welcome</h2>
+            <p>This place is a reflection of my mind — poetic, nostalgic, mysterious. More than just words, this is my voice preserved in ink.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Nexus Writes</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("sideMenu");
+            menu.classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>

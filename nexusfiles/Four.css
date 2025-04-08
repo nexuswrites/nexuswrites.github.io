@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #111;
+    color: #f0f0f0;
+}
+
+.menu-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #222;
+    width: 200px;
+    height: 100%;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 999;
+}
+
+nav.hidden {
+    display: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header {
+    background: url('https://i.ibb.co/zFYq94J/feather-paper.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #fff6e6;
+}
+
+header p {
+    font-style: italic;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.search-section {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.search-section input {
+    padding: 10px;
+    width: 60%;
+    max-width: 400px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: #00ffc8;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.intro {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #777;
+}
