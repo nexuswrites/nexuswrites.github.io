@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Poem Categories</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    <nav id="sideMenu" class="hidden">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="poems.html">Poem Categories</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <main>
+        <section class="intro">
+            <h2>Poem Categories</h2>
+            <p>Here you will find poems divided by emotions, themes, and rhythms. Categories coming soon...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nexus Writes</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("sideMenu");
+            menu.classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
