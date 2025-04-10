@@ -102,10 +102,11 @@ footer {
     padding: 20px;
     font-size: 0.9rem;
     color: #777;
-
-    body {
+    
+body {
   position: relative;
 }
+
 .nexus-logo {
   position: absolute;
   top: 20px;
@@ -115,11 +116,13 @@ footer {
 }
 
 .nexus-logo img {
-  height: 40px;
+  height: 50px;
   width: auto;
   border-radius: 10px;
+  object-fit: contain;
 }
 
 .nexus-logo:hover {
   transform: scale(1.1);
 }
+   
