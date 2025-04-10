@@ -102,6 +102,10 @@ footer {
     padding: 20px;
     font-size: 0.9rem;
     color: #777;
+
+    body {
+  position: relative;
+}
 .nexus-logo {
   position: absolute;
   top: 20px;
