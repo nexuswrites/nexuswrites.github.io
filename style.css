@@ -102,16 +102,20 @@ footer {
     padding: 20px;
     font-size: 0.9rem;
     color: #777;
-}
-.nexus-logo img {
-  width: 40px;
-  height: 40px;
+.nexus-logo {
   position: absolute;
   top: 20px;
   right: 20px;
   transition: transform 0.3s ease;
+  z-index: 1000;
 }
 
-.nexus-logo img:hover {
-  transform: scale(1.2) rotate(5deg);
+.nexus-logo img {
+  height: 40px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.nexus-logo:hover {
+  transform: scale(1.1);
 }
